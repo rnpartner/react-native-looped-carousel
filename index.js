@@ -413,6 +413,7 @@ export default class Carousel extends Component {
           contentInset={{ top: 0 }}
           automaticallyAdjustContentInsets={false}
           showsHorizontalScrollIndicator={false}
+          scrollEventThrottle={60}
           horizontal
           pagingEnabled
           bounces={false}
